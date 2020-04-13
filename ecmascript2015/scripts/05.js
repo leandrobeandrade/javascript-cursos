@@ -1,16 +1,15 @@
 let front = ['react', 'vue', 'angular']; 
 let back = ['python', 'ruby', 'nodejs'];
 
-//										 JAVASCRIPT
-// let fullStack = [];
-// fullStack = fullStack.concat(front);
-// fullStack.push('RxJS');
-// fullStack = fullStack.concat(back);
-// 
+//										 		JAVASCRIPT
+let fullStack_1 = [];
+fullStack_1 = fullStack_1.concat(front);
+fullStack_1.push('RxJS');
+fullStack_1 = fullStack_1.concat(back);
 
-// 										 ECMASCRIPT	
-let fullStack = [...front, 'RxJS', ...back];
-console.log(fullStack);
+// 										 		ECMASCRIPT	
+let fullStack_2 = [...front, 'RxJS', ...back];
+console.log(fullStack_2);
 console.log([...'will']);
 console.log(...front);
 

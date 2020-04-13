@@ -10,7 +10,7 @@ let obj2 = {
 
 let ws = new WeakSet([obj1, obj2]);
 
-ws.add({type: "obj"});
+ws.add({name: 'Marcus', age: 36});
 
 let obj3 = {
     name: 'Marcio',

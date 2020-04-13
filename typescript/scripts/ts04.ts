@@ -33,5 +33,5 @@ let pes3 = <Pessoa>{};
 pes3.nome = 'Belciclano';							// cria um pessoa de Pessoa
 console.log(pes3);
 
-let pes4: Pessoa = new Empregado('Ted',3500);		// polimorfismo
+let pes4: Pessoa = new Empregado('Ted', 3500);		// polimorfismo
 pes4.print();

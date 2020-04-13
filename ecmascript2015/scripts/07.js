@@ -34,4 +34,5 @@ const cao = new Animals('cao', 'auau');
 const gato = new Animals('gato', 'meow');
 
 console.log(cao);
-console.log(gato)
+console.log(gato);
+console.log(Animals.info())

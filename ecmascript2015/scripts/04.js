@@ -9,15 +9,15 @@ var data = {
 	}
 };
 
-//										 JAVASCRIPT
-// const name = data.name;
-// const surname = data.surname;
-// const twitter = data.social.twitter;
-// console.log(name);
-// console.log(surname);
-// console.log(twitter);
+//										 	JAVASCRIPT
+const _name = data.name;
+const _surname = data.surname;
+const _twitter = data.social.twitter;
+console.log(_name);
+console.log(_surname);
+console.log(_twitter);
 
-// 										 ECMASCRIPT			    
+// 										 	ECMASCRIPT			    
 const { name, surname } = data;
 console.log(name);
 console.log(surname);

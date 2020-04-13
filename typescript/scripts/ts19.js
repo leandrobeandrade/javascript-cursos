@@ -1,4 +1,4 @@
-var promessa = new Promisse(function (resolve, reject) {
+var promessa = new Promise(function (resolve, reject) {
     // Arquivo aberto
     var aberto = true;
     if (aberto) {
@@ -15,7 +15,7 @@ var promessa = new Promisse(function (resolve, reject) {
     console.log(fromReject);
 }); */
 function abrirArquivo() {
-    return new Promisse(function (resolve, reject) {
+    return new Promise(function (resolve, reject) {
         var aberto = true;
         if (aberto)
             resolve('Aberto');
@@ -23,7 +23,7 @@ function abrirArquivo() {
     });
 }
 function lerArquivo() {
-    return new Promisse(function (resolve, reject) {
+    return new Promise(function (resolve, reject) {
         var aberto = true;
         if (aberto)
             resolve('Lido');
@@ -31,7 +31,7 @@ function lerArquivo() {
     });
 }
 function deletarArquivo() {
-    return new Promisse(function (resolve, reject) {
+    return new Promise(function (resolve, reject) {
         var aberto = true;
         if (aberto)
             resolve('Deletado');
@@ -42,5 +42,5 @@ abrirArquivo()
     .then(function () { return lerArquivo()
     .then(function () { return deletarArquivo()
     .then(function () { return console.log("Tudo OK!"); })["catch"](function (frj) { return console.log(frj); })["catch"](function (frj) { return console.log(frj); }); }); })["catch"](function (frj) { return console.log(frj); });
-Promisse.all([abrirArquivo(), lerArquivo(), deletarArquivo()]).then()["catch"](); // retorna todas
-Promisse.race([abrirArquivo(), lerArquivo(), deletarArquivo()]).then()["catch"](); // retorna 1° encontrada
+Promise.all([abrirArquivo(), lerArquivo(), deletarArquivo()]).then()["catch"](); // retorna todas
+Promise.race([abrirArquivo(), lerArquivo(), deletarArquivo()]).then()["catch"](); // retorna 1° encontrada

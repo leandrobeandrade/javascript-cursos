@@ -5,7 +5,9 @@ class Pessoa {
 }
 
 function curso(target:any) {
-	Object.defineProperty(target.prototype,"curso",{value: () => "Curso de Typescript"});	// passagem por valor
+	Object.defineProperty(target.prototype,'curso', {
+		value: () => 'Curso de Typescript'					// passagem por valor
+	});
 }
 
 let pe = new Pessoa();
@@ -22,10 +24,12 @@ class Professor {
 
 function Curso(config:any) {
 	return (target:any) => {
-		Object.defineProperty(target.prototype,"curso",{value: () => config.curso});	// passagem por parâmetro
+		Object.defineProperty(target.prototype,'curso', {
+			value: () => config.curso						// passagem por parâmetro
+		});
 
 	}
 }
 
 let prof = new Professor();
-console.log(prof.curso());
+console.log(prof.Curso());

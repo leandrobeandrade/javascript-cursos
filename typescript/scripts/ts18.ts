@@ -12,7 +12,7 @@ console.log(nomes2);
 console.log(nomes2.has('ciclano'));
 console.log(nomes2.has('Ciclano'));
 
-for(let aux of nomes2){														// Não funcionou	
+for(let aux of nomes2){												// Não funcionou	
 	console.log(aux);
 }  
 

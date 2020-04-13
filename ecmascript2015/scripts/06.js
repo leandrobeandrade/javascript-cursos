@@ -1,10 +1,7 @@
 var defer = new Promise((resolve, reject) => { 
 	setTimeout(() => {
-		if (true) {
-			resolve('Hello! It works!');
-		} else {
-			reject('Error!');
-		}
+		if (true) resolve('Hello! It works!');
+		else reject('Error!');
 	}, 2000);
 });
 
@@ -21,6 +18,7 @@ const currency = new Promise((resolve, reject) => {
 		resolve({ currency: 'euro', value: 3.50 });
 	}, 5000);
 });
+
 const countries = new Promise((resolve, reject) => {
 	resolve(['Ireland', 'England', 'Scotland']);
 });
