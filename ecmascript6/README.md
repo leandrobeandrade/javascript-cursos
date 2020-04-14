@@ -4,7 +4,7 @@ ECMAScript é uma especificação de linguagem de programação baseada em scrip
 
 **Curso ministrado por William Justen na plataforma de ensino Udemy.**
 
-## Repositório online com os códigos executáveis referentes ao curso na plataforma CodeSandbox:
+Repositório online com os códigos executáveis referentes ao curso na plataforma CodeSandbox:
 
 - **Aula 01 => [Link para os códigos](https://codesandbox.io/s/ecma01-dey7u)**
 - **Aula 02 => [Link para os códigos](https://codesandbox.io/s/ecma02-678ow)**
@@ -19,4 +19,4 @@ ECMAScript é uma especificação de linguagem de programação baseada em scrip
 - **Aula 11 => [Link para os códigos](https://codesandbox.io/s/ecma11-xv6wb)**
 - **Aula 12 => [Link para os códigos](https://codesandbox.io/s/ecma12-rce9p)**
 
-![](https://github.com/leandrobeandrade/javascript-cursos/blob/master/ecmascript/ecma6.png)
+![](https://github.com/leandrobeandrade/javascript-cursos/blob/master/ecmascript6/ecma6.png)
