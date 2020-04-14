@@ -14,26 +14,26 @@ O TypeScript acelera sua experiência de desenvolvimento, capturando erros e for
 
 ## Conteúdo do curso
 
-	01 Tipos de dados
-	02 Outros tipos
-	03 Interfaces
-	04 Classes
-	05 Funções
-	06 Genericos
-	07 Compatibilidade de tipos
-	08 Namespaces
-	09 Namepaces
-	10 Funções callbacks	
-	11 Eventos
-	12 DOM
-	13 Ajax
-	14 Session/Local Storage
-	15 Desestruturação
-	16 Loops
-	17 Maps
-	18 Set
-	19 Promisses
-	20 Decorators
+- **01 -** Tipos de dados
+- **02 -** Outros tipos
+- **03 -** Interfaces
+- **04 -** Classes
+- **05 -** Funções
+- **06 -** Genericos
+- **07 -** Compatibilidade de tipos
+- **08 -** Namespaces
+- **09 -** Namespaces
+- **10 -** Funções callbacks	
+- **11 -** Eventos
+- **12 -** DOM
+- **13 -** Ajax
+- **14 -** Session/LocalStorage
+- **15 -** Desestruturação
+- **16 -** Loops
+- **17 -** Maps
+- **18 -** Set
+- **19 -** Promisses
+- **20 -** Decorators
 
 ## Links úteis
 
@@ -41,4 +41,4 @@ O TypeScript acelera sua experiência de desenvolvimento, capturando erros e for
 * https://tableless.com.br/diga-ola-ao-typescript-e-adeus-ao-javascript/ (Português)
 * http://www.typescriptlang.org/play/
 
-![](https://github.com/leandrobeandrade/javascript-cursos/blob/master/js.png)
+![](https://github.com/leandrobeandrade/javascript-cursos/blob/master/typescript/ts.png)
