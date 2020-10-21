@@ -1,5 +1,5 @@
 # Type Alias - Intersection
-Utilizado com uma interface na construção de objetos.
+Utilizado como uma interface na construção de objetos.
 
     type user = {
         id: number;
