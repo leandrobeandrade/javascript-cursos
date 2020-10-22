@@ -42,4 +42,4 @@
 
     let testes = new Teste('Fulano', 35);
     testes.setAge = 45;
-    console.log(testes.getAge); // retorna 45
+    console.log(testes.getAge); // retorna 90
