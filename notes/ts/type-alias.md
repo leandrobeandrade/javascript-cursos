@@ -25,4 +25,3 @@ Utilizado quando se quer utilizar um padrão de tipos em comum.
 
       teams('Jazz');    // ERRO
       teams('Lakers');  // OK
-      edededed
