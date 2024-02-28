@@ -13,9 +13,9 @@ Utilizado quando se quer utilizar um padrão de tipos em comum.
       }
 
       products(123, 'sapatos');   // OK
-      items('123', 'Fulano');     // OK
+      users('123', 'Fulano');     // OK
    
----   
+---
 
       type Teams = 'Bulls' | 'Lakers' | 'Pistons';
 
