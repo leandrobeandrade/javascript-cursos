@@ -14,7 +14,7 @@ O TypeScript acelera sua experiência de desenvolvimento, capturando erros e for
 
 ## Conteúdo do curso
 
-- **01 -** Tipos de dados
+- **01 -** [Tipos de dados](https://codesandbox.io/p/sandbox/typescript-q7xs2r)
 - **02 -** Outros tipos
 - **03 -** Interfaces
 - **04 -** Classes
