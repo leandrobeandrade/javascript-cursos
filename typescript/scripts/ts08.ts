@@ -14,3 +14,9 @@ namespace Validacao {
 		} 
 	}
 }
+
+let email = new Validacao.emailValidador();
+let url = new Validacao.urlValidador();
+
+console.log(email.valido("jose@dominio"));
+console.log(url.valido("http://www.dominio.com.br"));
