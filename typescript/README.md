@@ -18,10 +18,10 @@ O TypeScript acelera sua experiência de desenvolvimento, capturando erros e for
 - **02 -** [Outros tipos](https://codesandbox.io/p/sandbox/aula2-8fy2kg)
 - **03 -** [Interfaces](https://codesandbox.io/p/sandbox/aula3-tvglgh)
 - **04 -** [Classes](https://codesandbox.io/p/sandbox/aula4-smmqw6)
-- **05 -** Funções
-- **06 -** Genericos
-- **07 -** Compatibilidade de tipos
-- **08 -** Namespaces
+- **05 -** [Funções](https://codesandbox.io/p/sandbox/aula5-36s3wg)
+- **06 -** [Genericos](https://codesandbox.io/p/sandbox/aula6-224z9d)
+- **07 -** [Compatibilidade de tipos](https://codesandbox.io/p/sandbox/aula7-m89t42)
+- **08 -** [Namespaces](https://codesandbox.io/p/sandbox/aula8-mhv2dm)
 - **09 -** Namespaces
 - **10 -** Funções callbacks	
 - **11 -** Eventos
