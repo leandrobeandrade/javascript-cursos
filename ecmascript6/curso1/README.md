@@ -19,4 +19,4 @@ Repositório online com os códigos executáveis referentes ao curso na platafor
 - **Aula 11 => [Link para os códigos](https://codesandbox.io/s/ecma11-xv6wb)**
 - **Aula 12 => [Link para os códigos](https://codesandbox.io/s/ecma12-rce9p)**
 
-![](https://github.com/leandrobeandrade/javascript-cursos/blob/master/ecmascript6/ecma6.png)
+![](https://github.com/leandrobeandrade/javascript-cursos/blob/master/ecmascript6/curso1/ecma6.png)
