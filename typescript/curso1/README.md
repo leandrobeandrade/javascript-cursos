@@ -1,13 +1,4 @@
-# TYPESCRIPT
-
-TypeScript é um superconjunto de JavaScript desenvolvido pela Microsoft que adiciona dicas e alguns outros recursos de linguagem. O TypeScript estende o JavaScript adicionando tipos à linguagem.
-
-O TypeScript acelera sua experiência de desenvolvimento, capturando erros e fornecendo correções antes mesmo de você executar seu código, sendo de código aberto.
-
-## Utilização
-
-- Instalação => `npm install typescript -g`
-- Compilação => `tsc nome_do_arq.ts` 
+# Curso 1 
 
 **Curso realizado através de aulas pela plataforma Youtube do canal [DevDojo](https://www.youtube.com/channel/UCjF0OccBT05WxsJb2zNkL4g) no curso de [TypeScript](https://www.youtube.com/playlist?list=PL62G310vn6nGg5OzjxE8FbYDzCs_UqrUs)**.
 
@@ -33,10 +24,3 @@ O TypeScript acelera sua experiência de desenvolvimento, capturando erros e for
 - **18 -** Set
 - **19 -** Promisses
 - **20 -** Decorators
-
-## Links úteis
-
-* http://www.diullei.com/TypeScript-ptBR/tutorial.html
-* http://www.typescriptlang.org/play/
-
-![](https://github.com/leandrobeandrade/javascript-cursos/blob/master/typescript/ts.png)
