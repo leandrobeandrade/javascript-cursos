@@ -4,16 +4,16 @@
 
 ## Conteúdo do curso
 
-- **01 -** [Tipos de dados](https://codesandbox.io/p/sandbox/typescript-q7xs2r)
-- **02 -** [Outros tipos](https://codesandbox.io/p/sandbox/aula2-8fy2kg)
-- **03 -** [Interfaces](https://codesandbox.io/p/sandbox/aula3-tvglgh)
-- **04 -** [Classes](https://codesandbox.io/p/sandbox/aula4-smmqw6)
-- **05 -** [Funções](https://codesandbox.io/p/sandbox/aula5-36s3wg)
-- **06 -** [Genericos](https://codesandbox.io/p/sandbox/aula6-224z9d)
-- **07 -** [Compatibilidade de tipos](https://codesandbox.io/p/sandbox/aula7-m89t42)
-- **08 -** [Namespaces](https://codesandbox.io/p/sandbox/aula8-mhv2dm)
-- **09 -** Namespaces
-- **10 -** Funções callbacks	
+- **01 -** [Tipos de dados](https://replit.com/@leandrobeandrade/Tipos-de-dados#index.ts)
+- **02 -** [Outros tipos](https://replit.com/@leandrobeandrade/Outros-tipos#index.ts)
+- **03 -** [Interfaces](https://replit.com/@leandrobeandrade/Interfaces#index.ts)
+- **04 -** [Classes](https://replit.com/@leandrobeandrade/Classes#index.ts)
+- **05 -** [Funções](https://replit.com/@leandrobeandrade/Funcoes#index.ts)
+- **06 -** [Genericos](https://replit.com/@leandrobeandrade/Generics#index.ts)
+- **07 -** [Compatibilidade de tipos](https://replit.com/@leandrobeandrade/Compat-tipos#index.ts)
+- **08 -** [Namespaces](https://replit.com/@leandrobeandrade/Namespace#index.ts)
+- **09 -** [Namespaces util](https://replit.com/@leandrobeandrade/Namespace-util#index.ts)
+- **10 -** [Funções callbacks](https://replit.com/@leandrobeandrade/Callbacks#index.ts)	
 - **11 -** Eventos
 - **12 -** DOM
 - **13 -** Ajax
