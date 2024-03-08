@@ -1,6 +1,6 @@
 function Teste(callback) {
-    callback.call(this, 'Fulano');
-    callback.apply(this, ['Beltrano', 'Ciclano']);
+    callback.call(undefined, 'Fulano');
+    callback.apply(null, ['Beltrano']);
     callback('Belciclano');
 } 
 function Executar(nome) {
@@ -11,10 +11,8 @@ function Calculadora1(num1, num2, tipo) {
     switch (tipo) {
         case "add":
             return num1 + num2;
-            break;
         case "mul":
             return num1 * num2;
-            break;
         default:
             return 0;
     }

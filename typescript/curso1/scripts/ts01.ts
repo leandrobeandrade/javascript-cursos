@@ -1,10 +1,3 @@
-let p = document.createElement('p');
-let ola: string = 'Começando com Typescript';
-p.textContent = ola; 
-document.body.appendChild(p);
-
-/*-------------*/
-
 let numer: number = 10;                               // tipo NUMBER
 let boole: boolean = true;                            // tipo BOOLEAN
 let nulos: null;                                      // tipo NULL
@@ -16,7 +9,6 @@ let text3: string = `${text2}`;
 
 console.log(numer);
 console.log(boole);
-console.log(nulos);
 console.log(indef);
 console.log(annys);
 console.log(text1);

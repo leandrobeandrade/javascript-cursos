@@ -1,6 +1,6 @@
 function Teste(callback:(name:string) => void): void {
-	callback.call(this, 'Fulano');
-	callback.apply(this, ['Beltrano', 'Ciclano']);
+	callback.call(undefined, 'Fulano');
+	callback.apply(null, ['Beltrano']);
 	callback('Belciclano');
 }
 
@@ -15,10 +15,8 @@ function Calculadora1(num1:number, num2:number, tipo:string): number {
 	switch (tipo) {
 		case "add":
 			return num1 + num2;
-			break;
 		case "mul":
 			return num1 * num2;
-			break;
 		default:
 			return 0;
 	}	

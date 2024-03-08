@@ -1,8 +1,3 @@
-var p = document.createElement('p');
-var ola = 'Começando com Typescript';
-p.textContent = ola;
-document.body.appendChild(p);
-/*-------------*/
 var numer = 10; // tipo NUMBER
 var boole = true; // tipo BOOLEAN
 var nulos; // tipo NULL
@@ -13,7 +8,6 @@ var text2 = "Testando";
 var text3 = "" + text2;
 console.log(numer);
 console.log(boole);
-console.log(nulos);
 console.log(indef);
 console.log(annys);
 console.log(text1);
