@@ -35,11 +35,11 @@ var AjaxTest = /** @class */ (function () {
 }());
 var ajax_get = new AjaxTest();
 ajax_get.httpGet('http://httpbin.org/ip', function (status, response) {
-    var p = document.getElementById('p1');
-    p.innerHTML = response;
+	console.log("http://httpbin.org/ip", status);
+	console.log("http://httpbin.org/ip", response);
 });
 var ajax_post = new AjaxTest();
 ajax_post.httpPost('http://httpbin.org/post', '{nome:Fulano, empresa:TSX100}', function (status, response) {
-    var p = document.getElementById('p2');
-    p.innerHTML = response;
+	console.log("http://httpbin.org/post", status);
+	console.log("http://httpbin.org/post", response);
 });

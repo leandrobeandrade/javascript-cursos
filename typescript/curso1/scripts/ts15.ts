@@ -34,7 +34,7 @@ function exemplo1(pessoa: Pessoa): void {
 
 exemplo1(new Pessoa('Fulano'));
 
-function exemplo2({nome}): void {
+function exemplo2({nome}: {nome: string}): void {
 	console.log(nome);									// Desestruturação
 }
 
