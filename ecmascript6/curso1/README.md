@@ -1,6 +1,6 @@
 # Curso 1
 
-**Curso ministrado por William Justen na plataforma de ensino Udemy.**
+**Curso ministrado por William Justen através de aulas na plataforma de ensino Udemy no curso de EcmaScript6 `(não mais disponível)`**.
 
 ## Conteúdo do curso
 
