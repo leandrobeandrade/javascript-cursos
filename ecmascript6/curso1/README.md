@@ -4,8 +4,6 @@
 
 ## Conteúdo do curso
 
-Repositório online com os códigos executáveis referentes ao curso na plataforma CodeSandbox:
-
 - **01 -** [Link para os códigos](https://codesandbox.io/s/ecma01-dey7u)
 - **02 -** [Link para os códigos](https://codesandbox.io/s/ecma02-678ow)
 - **03 -** [Link para os códigos](https://codesandbox.io/s/ecma03-qu00k)
