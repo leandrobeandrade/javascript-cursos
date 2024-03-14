@@ -26,6 +26,6 @@ console.log(mySet[1]);
 let it = mySet.values();
 
 console.log(it.next());
-for (name of it) {
-    console.log(name);
+for (names of it) {
+    console.log(names);
 }

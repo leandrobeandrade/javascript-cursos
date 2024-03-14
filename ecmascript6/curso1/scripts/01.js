@@ -1,38 +1,46 @@
-const nomes = ['Le', 'Ali', 'Ka']; 
-const love = nomes
-.filter(name => name === 'Le')
-.map(name => `Eu amo ${name}`);
+let text = "Lorem ipsum dolor sit amet";
+const _text = "JavaScript";
 
-console.log(love);
+console.log(text);
+console.log("startsWith:", text.startsWith("rem"));
+console.log("endsWith:", text.endsWith("ame"));
+console.log("startsWith params:", text.startsWith("rem", 2));
+console.log("endsWith params:", text.endsWith("ame", 25));
+console.log("includes:", text.includes("Lorem"));
+console.log("teste ".repeat(8));
+console.log(Array.from(_text));
 
-const sandwich = {
-	bread: "Branco",
-	cheese: "Cheddar",
+const drinks = ["Água", "Suco", "Sorvete"];
+const lover = drinks
+  .filter((drink) => drink === "Água")
+  .map((drink) => `Eu amo ${drink}`);
 
-	prepare: function(){
-		return `Eu quero um sanduíche com pão ${this.bread} e queijo ${this.cheese}!`
-	},
+console.log(lover);
 
-	make: function(){
-		window.setTimeout(() => {
-			console.log(this.prepare());
-		}, 5000);
-	}
-};
+let btn = document.createElement("button");
+btn.textContent = "Teste";
+document.body.appendChild(btn);
 
-const btn = document.getElementById('btn');
-btn.addEventListener('click', function(){
-	sandwich.make();
+btn.addEventListener("click", () => {
+  sandwich.make();
 });
 
-let text = 'Lorem ipsum dolor sit amet';
-const texto = 'Leandro';
-const body = document.getElementsByTagName('body');
-const teste = body.innerHTML = body;
+const sandwich = {
+  bread: "Branco",
+  cheese: "Cheddar",
 
-console.log(text.startsWith('rem', 2));
-console.log(text.endsWith('ame', 25));
-console.log(text.includes('Lorem'));
-console.log('teste '.repeat(8));
-console.log(Array.from(texto));
-console.log(body);
+  prepare: function () {
+    return `Eu quero um sanduíche com pão ${this.bread} e queijo ${this.cheese}!`;
+  },
+
+  make: function () {
+    setTimeout(() => {
+      console.log(this.prepare());
+    }, 2000);
+  },
+};
+
+const body = document.getElementsByTagName("body");
+const teste = (body.innerHTML = body);
+
+console.log(teste);
