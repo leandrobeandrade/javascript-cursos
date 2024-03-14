@@ -3,7 +3,7 @@ const love = nomes
 .filter(name => name === 'Le')
 .map(name => `Eu amo ${name}`);
 
-console.log(love); 
+console.log(love);
 
 const sandwich = {
 	bread: "Branco",
@@ -20,7 +20,7 @@ const sandwich = {
 	}
 };
 
-const btn = document.getElementById('btn')
+const btn = document.getElementById('btn');
 btn.addEventListener('click', function(){
 	sandwich.make();
 });

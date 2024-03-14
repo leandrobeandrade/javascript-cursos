@@ -1,13 +1,13 @@
 let front = ['react', 'vue', 'angular']; 
 let back = ['python', 'ruby', 'nodejs'];
 
-//										 		JAVASCRIPT
+										 		// JAVASCRIPT
 let fullStack_1 = [];
 fullStack_1 = fullStack_1.concat(front);
 fullStack_1.push('RxJS');
 fullStack_1 = fullStack_1.concat(back);
 
-// 										 		ECMASCRIPT	
+ 										 		// ECMASCRIPT	
 let fullStack_2 = [...front, 'RxJS', ...back];
 console.log(fullStack_2);
 console.log([...'will']);
