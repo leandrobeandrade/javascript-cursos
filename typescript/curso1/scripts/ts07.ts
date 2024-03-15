@@ -36,7 +36,7 @@ let x3 = (b:number, c:string) => b;
 console.log(10);
 console.log(10, 'teste');
 
-//x2 = x1;											erro - x2 tem mais argumentos
+//x2 = x1;															erro - x2 tem mais argumentos
 x3 = x1;
 console.log(x3(50,'qualquer coisa'));
 
