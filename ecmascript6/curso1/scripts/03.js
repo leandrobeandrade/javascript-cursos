@@ -1,5 +1,5 @@
 const data = [ 
-	{
+  {
 		name: 'Willian',
 		age: 26,
 		city: 'Dublin'
