@@ -1,11 +1,11 @@
 let obj1 = { 
-    name: 'Willian',
-    age: 26
+  name: 'Willian',
+  age: 26
 };
 
 let obj2 = {
-    name: 'Jonas',
-    age: 22
+  name: 'Jonas',
+  age: 22
 };
 
 let ws = new WeakSet([obj1, obj2]);
@@ -13,12 +13,12 @@ let ws = new WeakSet([obj1, obj2]);
 ws.add({name: 'Marcus', age: 36});
 
 let obj3 = {
-    name: 'Marcio',
-    age: 18
+  name: 'Marcio',
+  age: 18
 };
 let obj4 = {
-    name: 'Carlos',
-    age: 44
+  name: 'Carlos',
+  age: 44
 };
  
 let wm = new WeakMap();

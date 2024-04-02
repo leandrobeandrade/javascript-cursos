@@ -1,15 +1,15 @@
 var data = { 
-	name: 'Willian',
-	surname: 'Justen',
-	age: 25,
-	blog: 'https://willianjusten.com.br',
-	social: {
-		twitter: '@Willian_Justen',
-		facebook: '/willianjusten'
-	}
+  name: 'Willian',
+  surname: 'Justen',
+  age: 25,
+  blog: 'https://willianjusten.com.br',
+  social: {
+    twitter: '@Willian_Justen',
+    facebook: '/willianjusten'
+  }
 };
 
-//										 	JAVASCRIPT
+// JAVASCRIPT
 const _name = data.name;
 const _surname = data.surname;
 const _twitter = data.social.twitter;
@@ -17,7 +17,7 @@ console.log(_name);
 console.log(_surname);
 console.log(_twitter);
 
-// 										 	ECMASCRIPT			    
+// ECMASCRIPT			    
 const { name, surname } = data;
 console.log(name);
 console.log(surname);
