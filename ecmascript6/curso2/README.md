@@ -6,8 +6,8 @@
 
 - **01 -** [Scopes](https://replit.com/@leandrobeandrade/Ecmascript6#scopes)
 - **02 -** [Features](https://replit.com/@leandrobeandrade/Ecmascript6#features)
-- **03 -** [Métodos arrays](https://codesandbox.io/s/ecma03-qu00k)
-- **04 -** [Objetos](https://codesandbox.io/s/ecma04-r1xv9)
+- **03 -** [Classes](https://replit.com/@leandrobeandrade/Ecmascript6#classes)
+- **04 -** [Promises](https://codesandbox.io/s/ecma04-r1xv9)
 - **05 -** [Rest](https://codesandbox.io/s/ecma05-r49s2)
 - **06 -** [Promise](https://codesandbox.io/s/ecma06-py1l8)
 - **07 -** [Classes](https://codesandbox.io/s/ecma07-hmpqn)
