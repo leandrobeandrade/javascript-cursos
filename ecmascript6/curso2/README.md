@@ -4,8 +4,8 @@
 
 ## Conteúdo do curso
 
-- **scopes -** [Strings](https://replit.com/@leandrobeandrade/Ecmascript6#scopes)
-- **02 -** [Arrays](https://codesandbox.io/s/ecma02-678ow)
+- **01 -** [Scopes](https://replit.com/@leandrobeandrade/Ecmascript6#scopes)
+- **02 -** [Features](https://replit.com/@leandrobeandrade/Ecmascript6#features)
 - **03 -** [Métodos arrays](https://codesandbox.io/s/ecma03-qu00k)
 - **04 -** [Objetos](https://codesandbox.io/s/ecma04-r1xv9)
 - **05 -** [Rest](https://codesandbox.io/s/ecma05-r49s2)
