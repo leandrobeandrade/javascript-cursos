@@ -1,7 +1,7 @@
-let num1 = '100'
-num1 = num1.padStart(10, '0')
-console.log(num1)
+let n1 = '100'
+num1 = n1.padStart(10, '0')
+console.log(n1)
 
-let num2 = '100'
-num2 = num2.padEnd(10, '0')
-console.log(num2)
+let n2 = '100'
+num2 = n2.padEnd(10, '0')
+console.log(n2)

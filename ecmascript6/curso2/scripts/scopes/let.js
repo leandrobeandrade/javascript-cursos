@@ -8,7 +8,7 @@ function escopoFuncao() {
   }
 
   console.log('funcao: ', serie)
-  console.log('funcao: ', serie2)
+  console.log('funcao: ', serie2) // Error
 }
 
 escopoFuncao()

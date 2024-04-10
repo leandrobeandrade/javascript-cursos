@@ -10,8 +10,8 @@ let num3 = 1_575_000_000.99
 console.log('num3: ', num3)
 
 // binário
-let b = 0b1010_1010_1010
-console.log('binário: ', b)
+let bin = 0b1010_1010_1010
+console.log('binário: ', bin)
 
 // hexadecimal
 let hex = 0xA_B_C_D_E_F

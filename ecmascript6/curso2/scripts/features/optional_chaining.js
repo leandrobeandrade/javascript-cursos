@@ -1,4 +1,4 @@
-let obj = {
+let obj_ = {
   2021: {
     janeiro: {
       pessoal: 2000,
@@ -13,5 +13,5 @@ let obj = {
   }
 }
 
-console.log(obj['2021'].janeiro.pessoal)
-console.log(obj['2021'].marco?.pessoal)
+console.log(obj_['2021'].janeiro.pessoal)
+console.log(obj_['2021'].marco?.pessoal)
