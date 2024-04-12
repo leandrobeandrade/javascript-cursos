@@ -1,5 +1,4 @@
 let nomes = ['Fulano, Silva', 'Ciclano, Sousa', 'Beltrano, Alves']
-
 console.log(nomes)
 
 let nomes_map = nomes.map(item => item.split(','))
