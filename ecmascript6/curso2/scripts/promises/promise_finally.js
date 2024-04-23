@@ -1,6 +1,6 @@
-let control = false
+let control = true
 let prom = new Promise((resolve, reject) => {
-  if (control) reject('REJEITADO')
+  if (!control) reject('REJEITADO')
 
   resolve('RESOLVIDO')
 })

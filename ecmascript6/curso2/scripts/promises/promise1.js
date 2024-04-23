@@ -12,16 +12,13 @@ let promessa1 = new Promise((resolve, reject) => {
   }
 })
 
-console.log(promessa1)
-
-setTimeout(() => console.log(promessa1), 5000)
+setTimeout(() => console.log(promessa1), 6000)
 
 let resposta = {}
 let promessa2 = new Promise((resolve, reject) => {
   try {
     setTimeout(() => {
       resposta = { dados: { msg: 'Sucesso na requisição.' } }
-      resolve('Sucesso :)')
     }, 3000)
   } catch (e) {
     setTimeout(() => {

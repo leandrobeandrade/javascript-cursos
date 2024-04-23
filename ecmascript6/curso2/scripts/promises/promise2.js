@@ -19,13 +19,13 @@ let promessa3 = new Promise((resolve, reject) => {
     console.log('Dados 3')
     return 'Dados 4'
   })
-  .then(vem_de_cima => console.log(vem_de_cima))
+  .then(vem_de_cima => console.log(vem_de_cima, '^'))
   .catch(erro => {
     console.log(erro)
-    return 'Enviado pelo catch'
+    return 'Enviado pelo catch' // Só se der erro
   })
   .then((teste) => {
-    console.log('Dados 4')
+    console.log('Dados 4 #')
     return teste
   })
   .then((vem_do_catch) => {
